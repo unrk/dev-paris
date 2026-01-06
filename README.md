@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# dev-paris.tech
 
-## Getting Started
+[![Domaine](https://img.shields.io/badge/Domaine-dev--paris.tech-1b73e8?style=for-the-badge)](https://dev-paris.tech)
+[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Vercel%20%7C%20GitHub-111?style=for-the-badge)](https://nextjs.org/)
 
-First, run the development server:
+## Choix du domaine
+> j'ai d'abord choisis mon ndd pour que personne ne puisse le prendre, j'ai choisis ``dev-paris.tech``, court et gratuit il me convenais totalement.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stack Next.js / Vercel / GitHub
+> il fallait ensuite choisir les technos que j'allais utiliser, j'ai donc choisis de faire mon site en ``next.js``, de le stocker sur ``github``, et de l'host a l'aide de ``vercel``.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> j'ai pris ``next.js`` car c'est le framework qui m'atire le plus et que j'apprend en ce moment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> ``github`` a été le choix de la facilité pour pouvoir push et voir en live mon site en ligne, pour aussi pouvoir directement coder et push avec vscode
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> et ``vercel`` pour la comptabilité avec next.js, c'est gratuit et les analytics. 
 
-## Learn More
+## SEO mis en place
+> j'ai suivis beaucoup de règles seo comme connecter a google search console avec la sitemap, fais un fichier robots en typescript et un en txt, j'ai fais une sitemap en static, les metas-données sont optimisées, les Core Web Vitals sont optimisées aussi, vu qu'il y as un blog sur le site (fictif) les keywords et links vont s'ajouter de plus en plus car un arcticle de blog peut atteindre les 1500 mots assez facilement, j'ai aussi fais un Schema LocalBusiness.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Ameliorations possibles
+> les améliorations que je pourrais mettre dans mon site serais en rapport avec github. Je pourrais automatiser plusieurs taches en rapport avec le seo comme Vérifier les broken links a chaque push (détecte les 404), Vérifier Core Web Vitals avec Lighthouse, Scraper Meta Tags (Vérifier SEO on-page) et mettre des notifications avec discord ou slack si mon ranking changerais.
