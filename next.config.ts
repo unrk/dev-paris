@@ -4,10 +4,6 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   compress: true,
-  i18n: {
-    locales: ["fr"],
-    defaultLocale: "fr",
-  },
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
