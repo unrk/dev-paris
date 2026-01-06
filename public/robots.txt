@@ -1,0 +1,14 @@
+# Allow Google, Bing, Yandex crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dev-paris.tech/sitemap.xml
+
+# Crawl-delay (pas trop restrictif)
+Crawl-delay: 1
+
+# Disallow nothing (tout accessible sauf exceptions)
+Disallow: /admin
+Disallow: /api/
+Disallow: *.pdf$ # si applicable

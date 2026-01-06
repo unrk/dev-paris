@@ -1,4 +1,4 @@
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://dev-freelance-paris.vercel.app").replace(/\/$/, "");
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://dev-paris.tech").replace(/\/$/, "");
 
 export const business = {
   name: "Développeur freelance Paris",
@@ -8,7 +8,7 @@ export const business = {
   city: "Paris",
   country: "France",
   phone: "+33 6 12 34 56 78",
-  email: "contact@dev-freelance-paris.com",
+  email: "contact@dev-paris.tech",
   url: siteUrl,
   logo: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=400&q=60",
   priceRange: "€€",

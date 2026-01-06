@@ -343,7 +343,7 @@ export default function Home() {
                   <div className="space-y-1">
                     <dt className="text-sm font-semibold text-slate-200">Email</dt>
                     <dd>
-                      <a className="text-indigo-200" href="mailto:contact@dev-freelance-paris.com">
+                      <a className="text-indigo-200" href="mailto:contact@dev-paris.tech">
                         {business.email}
                       </a>
                     </dd>
